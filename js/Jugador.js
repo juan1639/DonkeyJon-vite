@@ -24,7 +24,7 @@ export class Jugador {
 
         this.ctx = settings.ctx;
         this.img = settings.imagenes.ssheet_jugador;
-        this.img.src = './img/Ssheet_jugador.png';
+        this.img.src = '../img/Ssheet_jugador.png';
 
         this.ssheet = {
             quieto: [0, 0, 0, 0, true],
