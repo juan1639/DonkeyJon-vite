@@ -94,9 +94,9 @@ export class Plataforma {
         this.img.src = ruta;
 
         this.img_bordeIz = new Image();
-        this.img_bordeIz.src = './img/tile2.png';
+        this.img_bordeIz.src = './assets/img/tile2.png';
         this.img_bordeDe = new Image();
-        this.img_bordeDe.src = './img/tile3.png';
+        this.img_bordeDe.src = './assets/img/tile3.png';
 
         this.bordeIz = args[3];
         this.bordeDe = args[4];
@@ -225,7 +225,7 @@ export class PlataformaMovil {
 
             if (checkColision(plataf, this, this.correcciones, 0)) {
                 
-                if (plataf.rutaArchivoPng !== './img/tile6.png') return true;
+                if (plataf.rutaArchivoPng !== './assets/img/tile6.png') return true;
             }
         }
 

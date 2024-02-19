@@ -188,21 +188,21 @@ export class Settings {
         };
 
         this.sonidos = {
-            gameOver: new Audio('./audio/gameoveretro.ogg'),
-            jump: new Audio('./audio/jumpbros.ogg'),
-            ataque: new Audio('./audio/misc125.mp3'),
-            dieThrow1: new Audio('./audio/dieThrow1.ogg'),
-            dieThrow2: new Audio('./audio/dieThrow2.ogg'),
-            chips1: new Audio('./audio/chipsCollide1.ogg'),
-            chips2: new Audio('./audio/chipsCollide2.ogg'),
-            chips3: new Audio('./audio/chipsCollide3.ogg'),
-            marioTuberias: new Audio('./audio/mario_tuberias.ogg'),
-            pacmanDies: new Audio('./audio/pacmandies.ogg'),
-            eatingCherry: new Audio('./audio/pacmaneatingcherry.mp3'),
-            eatingGhost: new Audio('./audio/pacmaneatinghost.ogg'),
-            intermision: new Audio('./audio/pacmanintermision.ogg'),
-            fireWorks: new Audio('./audio/fireworks.mp3'),
-            musicaFondo: new Audio('./audio/music-puzzle-game1.mp3')
+            gameOver: new Audio('./assets/audio/gameoveretro.ogg'),
+            jump: new Audio('./assets/audio/jumpbros.ogg'),
+            ataque: new Audio('./assets/audio/misc125.mp3'),
+            dieThrow1: new Audio('./assets/audio/dieThrow1.ogg'),
+            dieThrow2: new Audio('./assets/audio/dieThrow2.ogg'),
+            chips1: new Audio('./assets/audio/chipsCollide1.ogg'),
+            chips2: new Audio('./assets/audio/chipsCollide2.ogg'),
+            chips3: new Audio('./assets/audio/chipsCollide3.ogg'),
+            marioTuberias: new Audio('./assets/audio/mario_tuberias.ogg'),
+            pacmanDies: new Audio('./assets/audio/pacmandies.ogg'),
+            eatingCherry: new Audio('./assets/audio/pacmaneatingcherry.mp3'),
+            eatingGhost: new Audio('./assets/audio/pacmaneatinghost.ogg'),
+            intermision: new Audio('./assets/audio/pacmanintermision.ogg'),
+            fireWorks: new Audio('./assets/audio/fireworks.mp3'),
+            musicaFondo: new Audio('./assets/audio/music-puzzle-game1.mp3')
         };
 
         this.volumen = {

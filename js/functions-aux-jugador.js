@@ -32,7 +32,7 @@ function instanciar_showBonus(bonus, esto, los7Done, args) {
     const altoClip = args[6];
     const duracion = args[7];
 
-    settings.objeto.showbonus.push(new ShowBonus('./img/showPtos.png', bonus.rect.x, esto.rect.y - gap, anchoIni, altoIni, sbx, sby, anchoClip, altoClip, duracion));
+    settings.objeto.showbonus.push(new ShowBonus('./assets/img/showPtos.png', bonus.rect.x, esto.rect.y - gap, anchoIni, altoIni, sbx, sby, anchoClip, altoClip, duracion));
 }
 
 export {

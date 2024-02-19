@@ -11,14 +11,14 @@ export class Scroll {
     static resolucion = [this.nro_columnas * this.bsx, this.nro_filas * this.bsy];
 
     static ini_scrolls = [
-        [-this.resolucion[0], 0, './img/fondo_cielo103.png'],
-        [0, 0, './img/fondo_cielo101.png'],
-        [this.resolucion[0], 0, './img/fondo_cielo103.png'],
-        [this.resolucion[0] * 2, 0, './img/fondo_cielo101.png'],
-        [-this.resolucion[0], -this.resolucion[1], './img/fondo_cielo104.png'],
-        [0, -this.resolucion[1], './img/fondo_cielo102.png'],
-        [this.resolucion[0], -this.resolucion[1], './img/fondo_cielo104.png'],
-        [this.resolucion[0] * 2, -this.resolucion[1], './img/fondo_cielo102.png']
+        [-this.resolucion[0], 0, './assets/img/fondo_cielo103.png'],
+        [0, 0, './assets/img/fondo_cielo101.png'],
+        [this.resolucion[0], 0, './assets/img/fondo_cielo103.png'],
+        [this.resolucion[0] * 2, 0, './assets/img/fondo_cielo101.png'],
+        [-this.resolucion[0], -this.resolucion[1], './assets/img/fondo_cielo104.png'],
+        [0, -this.resolucion[1], './assets/img/fondo_cielo102.png'],
+        [this.resolucion[0], -this.resolucion[1], './assets/img/fondo_cielo104.png'],
+        [this.resolucion[0] * 2, -this.resolucion[1], './assets/img/fondo_cielo102.png']
     ];
 
     // ----------------------------------------------------------------------------

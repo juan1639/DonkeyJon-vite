@@ -96,7 +96,7 @@ function instanciar_jugador() {
 
 // ---------------------------------------------------------------------------
 function instanciar_boommerang() {
-    settings.objeto.boommerang.push(new Boommerang('./img/boommerang_sheet.png', -100, -100, -1, -1));
+    settings.objeto.boommerang.push(new Boommerang('./assets/img/boommerang_sheet.png', -100, -100, -1, -1));
 }
 
 // ============================================================================
@@ -142,10 +142,10 @@ function instanciar_plataformas(nivel) {
         const movil = nivelActual[i][5];
 
         if (movil === 0) {
-            settings.objeto.plataforma.push(new Plataforma(nivelActual[i], './img/tile1.png'));
+            settings.objeto.plataforma.push(new Plataforma(nivelActual[i], './assets/img/tile1.png'));
             
         } else {
-            settings.objeto.plataforma.push(new PlataformaMovil(nivelActual[i], './img/tile6.png'));
+            settings.objeto.plataforma.push(new PlataformaMovil(nivelActual[i], './assets/img/tile6.png'));
         }
     }
 }
@@ -211,7 +211,7 @@ function instanciar_los7() {
 function instanciar_showVidas() {
 
     for (let i = settings.marcadores.vidas; i > 0; i --) {
-        const idVidas = './img/Ssheet_jugador.png';
+        const idVidas = './assets/img/Ssheet_jugador.png';
         const xVidas = settings.resolucion[0] - i * settings.constante.bsx - settings.constante.bsx;
 
         settings.objeto.showvidas.push(new ShowVidas(idVidas, xVidas, 0, settings.constante.bsx, settings.constante.bsy));

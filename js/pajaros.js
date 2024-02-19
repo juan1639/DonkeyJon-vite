@@ -7,7 +7,7 @@ export class Pajaros {
 
         this.ctx = settings.ctx;
         this.img = new Image();
-        this.img.src = './img/bird64x72.png';
+        this.img.src = './assets/img/bird64x72.png';
 
         this.id = id;
         this.abatido = false;

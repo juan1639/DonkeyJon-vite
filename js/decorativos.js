@@ -10,57 +10,57 @@ export class Decorativos {
 
     static array_decorativos = [
 
-        [-10, this.ini_suelo, 1, './img/tree05.png', false],
-        [42, this.ini_suelo, 1, './img/tree05.png', false],
-        [-10, this.ini_suelo - this.gap * 3, 1, './img/tree05.png', false],
-        [42, this.ini_suelo - this.gap * 4, 1, './img/tree05.png', false],
-        [-14, this.ini_suelo - this.gap * 5, 3, './img/tree05.png', false],
-        [42, this.ini_suelo - this.gap * 6, 2, './img/tree05.png', false],
-        [26, this.ini_suelo, 1, './img/Letrero_creditos.png', false],
-        [-15, this.ini_suelo, 1, './img/Letrero_kenneyNl.png', false],
-        [-15, this.ini_suelo - this.gap * 3, 1, './img/Letrero_IMI.png', false],
-        [31, this.ini_suelo - this.gap * 2, 1, './img/Letrero_piscis.png', false],
-        [6, this.ini_suelo - this.gap * 2, 1, './img/signArrow_up.png', false],
-        [10, this.ini_suelo - this.gap * 2, 1, './img/signArrow_right.png', false],
-        [-7, this.ini_suelo, 1, './img/signArrow_TR.png', false],
-        [38, this.ini_suelo, 1, './img/signArrow_up.png', false],
-        [3, this.ini_suelo - this.gap * 1, 1, './img/signArrow_up.png', false],
-        [30, this.ini_suelo - this.gap * 4, 1, './img/signArrow_TL.png', false],
-        [32, this.ini_suelo - this.gap * 4, 1, './img/signArrow_up.png', false],
-        [34, this.ini_suelo - this.gap * 6, 1, './img/signLeft.png', false],
-        [9, this.ini_suelo - this.gap * 5, 1, './img/signLeft.png', false],
-        [37, this.ini_suelo - this.gap * 6, 1, './img/Letrero_Arlekin.png', false],
+        [-10, this.ini_suelo, 1, './assets/img/tree05.png', false],
+        [42, this.ini_suelo, 1, './assets/img/tree05.png', false],
+        [-10, this.ini_suelo - this.gap * 3, 1, './assets/img/tree05.png', false],
+        [42, this.ini_suelo - this.gap * 4, 1, './assets/img/tree05.png', false],
+        [-14, this.ini_suelo - this.gap * 5, 3, './assets/img/tree05.png', false],
+        [42, this.ini_suelo - this.gap * 6, 2, './assets/img/tree05.png', false],
+        [26, this.ini_suelo, 1, './assets/img/Letrero_creditos.png', false],
+        [-15, this.ini_suelo, 1, './assets/img/Letrero_kenneyNl.png', false],
+        [-15, this.ini_suelo - this.gap * 3, 1, './assets/img/Letrero_IMI.png', false],
+        [31, this.ini_suelo - this.gap * 2, 1, './assets/img/Letrero_piscis.png', false],
+        [6, this.ini_suelo - this.gap * 2, 1, './assets/img/signArrow_up.png', false],
+        [10, this.ini_suelo - this.gap * 2, 1, './assets/img/signArrow_right.png', false],
+        [-7, this.ini_suelo, 1, './assets/img/signArrow_TR.png', false],
+        [38, this.ini_suelo, 1, './assets/img/signArrow_up.png', false],
+        [3, this.ini_suelo - this.gap * 1, 1, './assets/img/signArrow_up.png', false],
+        [30, this.ini_suelo - this.gap * 4, 1, './assets/img/signArrow_TL.png', false],
+        [32, this.ini_suelo - this.gap * 4, 1, './assets/img/signArrow_up.png', false],
+        [34, this.ini_suelo - this.gap * 6, 1, './assets/img/signLeft.png', false],
+        [9, this.ini_suelo - this.gap * 5, 1, './assets/img/signLeft.png', false],
+        [37, this.ini_suelo - this.gap * 6, 1, './assets/img/Letrero_Arlekin.png', false],
 
-        [2, this.ini_suelo - this.gap * 5, 1, './img/switchRed_mid.png', true],
+        [2, this.ini_suelo - this.gap * 5, 1, './assets/img/switchRed_mid.png', true],
 
-        [-12, this.ini_suelo - this.gap * 6, 1, './img/flagYellow1.png', false],
-        [-10, this.ini_suelo - this.gap * 6, 1, './img/lockYellow.png', false]
+        [-12, this.ini_suelo - this.gap * 6, 1, './assets/img/flagYellow1.png', false],
+        [-10, this.ini_suelo - this.gap * 6, 1, './assets/img/lockYellow.png', false]
     ];
 
     static array_decorativos2 = [
 
-        [58, this.ini_suelo, 1, './img/tree05.png', false],
-        [-10, this.ini_suelo - this.gap * 3, 1, './img/tree05.png', false],
-        [42, this.ini_suelo - this.gap * 4, 1, './img/tree05.png', false],
-        [59, this.ini_suelo - this.gap * 6, 2, './img/tree05.png', false],
-        [6, this.ini_suelo, 1, './img/tree05.png', false],
-        [6, this.ini_suelo - this.gap * 3, 1, './img/tree05.png', false],
-        [26, this.ini_suelo, 1, './img/Letrero_creditos.png', false],
-        [1, this.ini_suelo, 1, './img/Letrero_kenneyNl.png', false],
-        [42, this.ini_suelo, 1, './img/Letrero_IMI.png', false],
-        [32, this.ini_suelo - this.gap * 2, 1, './img/Letrero_piscis.png', false],
-        [49, this.ini_suelo, 1, './img/signArrow_up.png', false],
-        [12, this.ini_suelo, 1, './img/signArrow_up.png', false],
-        [14, this.ini_suelo, 1, './img/signRight.png', false],
-        [32, this.ini_suelo - this.gap * 4, 1, './img/signArrow_up.png', false],
-        [24, this.ini_suelo - this.gap * 6, 1, './img/signLeft.png', false],
-        [27, this.ini_suelo - this.gap * 6, 1, './img/signRight.png', false],
-        [37, this.ini_suelo - this.gap * 6, 1, './img/Letrero_Arlekin.png', false],
+        [58, this.ini_suelo, 1, './assets/img/tree05.png', false],
+        [-10, this.ini_suelo - this.gap * 3, 1, './assets/img/tree05.png', false],
+        [42, this.ini_suelo - this.gap * 4, 1, './assets/img/tree05.png', false],
+        [59, this.ini_suelo - this.gap * 6, 2, './assets/img/tree05.png', false],
+        [6, this.ini_suelo, 1, './assets/img/tree05.png', false],
+        [6, this.ini_suelo - this.gap * 3, 1, './assets/img/tree05.png', false],
+        [26, this.ini_suelo, 1, './assets/img/Letrero_creditos.png', false],
+        [1, this.ini_suelo, 1, './assets/img/Letrero_kenneyNl.png', false],
+        [42, this.ini_suelo, 1, './assets/img/Letrero_IMI.png', false],
+        [32, this.ini_suelo - this.gap * 2, 1, './assets/img/Letrero_piscis.png', false],
+        [49, this.ini_suelo, 1, './assets/img/signArrow_up.png', false],
+        [12, this.ini_suelo, 1, './assets/img/signArrow_up.png', false],
+        [14, this.ini_suelo, 1, './assets/img/signRight.png', false],
+        [32, this.ini_suelo - this.gap * 4, 1, './assets/img/signArrow_up.png', false],
+        [24, this.ini_suelo - this.gap * 6, 1, './assets/img/signLeft.png', false],
+        [27, this.ini_suelo - this.gap * 6, 1, './assets/img/signRight.png', false],
+        [37, this.ini_suelo - this.gap * 6, 1, './assets/img/Letrero_Arlekin.png', false],
 
-        [35, this.ini_suelo - this.gap * 6, 1, './img/switchRed_mid.png', true],
+        [35, this.ini_suelo - this.gap * 6, 1, './assets/img/switchRed_mid.png', true],
 
-        [2, this.ini_suelo - this.gap * 6, 1, './img/flagYellow1.png', false],
-        [6, this.ini_suelo - this.gap * 6, 1, './img/lockYellow.png', false]
+        [2, this.ini_suelo - this.gap * 6, 1, './assets/img/flagYellow1.png', false],
+        [6, this.ini_suelo - this.gap * 6, 1, './assets/img/lockYellow.png', false]
     ];
 
     static array_nivelesDecorativos = [
@@ -96,7 +96,7 @@ export class Decorativos {
             alto: alto
         }
         
-        if (this.id.slice(0, 12) === './img/lockYe') this.rect.x += Math.floor(this.anchoTile / 5);
+        if (this.id.slice(0, 12) === './assets/img/lockYe') this.rect.x += Math.floor(this.anchoTile / 5);
 
         this.anima = false;
 
@@ -126,22 +126,22 @@ export class Decorativos {
 
     elegir_sizeElemento() {
 
-        if (this.id.slice(0, 14) === './img/Letrero_') {
+        if (this.id.slice(0, 14) === './assets/img/Letrero_') {
             return [this.anchoTile * 4, this.altoTile * 3];
 
-        } else if (this.id.slice(0, 12) === './img/signAr') {
+        } else if (this.id.slice(0, 12) === './assets/img/signAr') {
             return [this.anchoTile, this.altoTile * 2];
             
-        } else if (this.id.slice(0, 15) === './img/switchRed') {
+        } else if (this.id.slice(0, 15) === './assets/img/switchRed') {
             return [this.anchoTile, this.altoTile];
 
-        } else if (this.id.slice(0, 12) === './img/flagYe') {
+        } else if (this.id.slice(0, 12) === './assets/img/flagYe') {
             return [this.anchoTile * 2, this.altoTile * 3];
 
-        } else if (this.id.slice(0, 12) === './img/lockYe') {
+        } else if (this.id.slice(0, 12) === './assets/img/lockYe') {
             return [this.anchoTile * 2, this.altoTile * 2];
 
-        } else if (this.id.slice(0, 12) === './img/signLe' || this.id.slice(0, 12) === './img/signRi') {
+        } else if (this.id.slice(0, 12) === './assets/img/signLe' || this.id.slice(0, 12) === './assets/img/signRi') {
             return [this.anchoTile * 2, this.altoTile * 2];
         }
 
@@ -150,30 +150,30 @@ export class Decorativos {
 
     elegirImg() {
 
-        if (this.id.slice(0, 12) === './img/flagYe') {
+        if (this.id.slice(0, 12) === './assets/img/flagYe') {
 
             if (this.anima) {
-                return './img/flagYellow1.png';
+                return './assets/img/flagYellow1.png';
             } else {
-                return './img/flagYellow2.png';
+                return './assets/img/flagYellow2.png';
             }
         }
 
-        if (this.id.slice(0, 15) === './img/switchRed') {
+        if (this.id.slice(0, 15) === './assets/img/switchRed') {
             
             if (this.accion_realizada) {
-                return './img/switchRed_right.png';
+                return './assets/img/switchRed_right.png';
             } else {
-                return './img/switchRed_mid.png';
+                return './assets/img/switchRed_mid.png';
             }
         }
 
-        if (this.id.slice(0, 12) === './img/lockYe') {
+        if (this.id.slice(0, 12) === './assets/img/lockYe') {
             
             if (settings.objeto.llave.accion_realizada) {
-                return './img/signExit.png';
+                return './assets/img/signExit.png';
             } else {
-                return './img/lockYellow.png';
+                return './assets/img/lockYellow.png';
             }
         }
 

@@ -123,7 +123,7 @@ export class Boommerang {
         const altoClip = 20;
         const duracion = 2300;
 
-        settings.objeto.showbonus.push(new ShowBonus('./img/showPtos.png', pajaro_bicho.rect.x, pajaro_bicho.rect.y - gap, anchoIni, altoIni, sbx, sby, anchoClip, altoClip, duracion));
+        settings.objeto.showbonus.push(new ShowBonus('./assets/img/showPtos.png', pajaro_bicho.rect.x, pajaro_bicho.rect.y - gap, anchoIni, altoIni, sbx, sby, anchoClip, altoClip, duracion));
 
     }
 }

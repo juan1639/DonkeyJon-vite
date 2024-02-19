@@ -9,9 +9,9 @@ export class Llave {
     static gapMini = Scroll.bsy * 2;
 
     static array_llaves = [
-        ['./img/keyYellow.png', 29 * Scroll.bsx, this.ini_suelo - this.gap * 3, true],
-        ['./img/keyYellow.png', 54 * Scroll.bsx, this.ini_suelo - this.gap * 6, true],
-        ['./img/keyYellow.png', 29 * Scroll.bsx, this.ini_suelo - this.gap * 3, true]
+        ['./assets/img/keyYellow.png', 29 * Scroll.bsx, this.ini_suelo - this.gap * 3, true],
+        ['./assets/img/keyYellow.png', 54 * Scroll.bsx, this.ini_suelo - this.gap * 6, true],
+        ['./assets/img/keyYellow.png', 29 * Scroll.bsx, this.ini_suelo - this.gap * 3, true]
     ];
 
     // -----------------------------------------------------------------------

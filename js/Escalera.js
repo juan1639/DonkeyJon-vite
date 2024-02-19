@@ -40,7 +40,7 @@ export class Escalera {
 
         this.ctx = settings.ctx;
         this.img = settings.imagenes.escalera;
-        this.img.src = './img/ladderWide_mid.png';
+        this.img.src = './assets/img/ladderWide_mid.png';
 
         this.rect = {
             x: args[0] * this.anchoTile,

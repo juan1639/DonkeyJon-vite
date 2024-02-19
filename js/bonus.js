@@ -9,27 +9,27 @@ export class Bonus {
     static gapMini = Scroll.bsy * 2;
 
     static array_bonus = [
-        ['./img/items_ri.png', 35, this.ini_suelo, true],
-        ['./img/items_ri.png', 12, this.ini_suelo - this.gap * 1, true],
-        ['./img/items_ri.png', 29, this.ini_suelo - this.gap * 2, true],
-        ['./img/items_ri.png', 10, this.ini_suelo - this.gap * 3, true],
-        ['./img/items_ri.png', 12, this.ini_suelo - this.gap * 4, true],
-        ['./img/items_ri.png', 33, this.ini_suelo - this.gap * 5, true],
-        ['./img/items_ri.png', 25, this.ini_suelo - this.gap * 6, true],
-        ['./img/items_ri.png', -6, this.ini_suelo - this.gap * 3, true],
-        ['./img/items_ri.png', -4, this.ini_suelo - this.gap * 5, true]
+        ['./assets/img/items_ri.png', 35, this.ini_suelo, true],
+        ['./assets/img/items_ri.png', 12, this.ini_suelo - this.gap * 1, true],
+        ['./assets/img/items_ri.png', 29, this.ini_suelo - this.gap * 2, true],
+        ['./assets/img/items_ri.png', 10, this.ini_suelo - this.gap * 3, true],
+        ['./assets/img/items_ri.png', 12, this.ini_suelo - this.gap * 4, true],
+        ['./assets/img/items_ri.png', 33, this.ini_suelo - this.gap * 5, true],
+        ['./assets/img/items_ri.png', 25, this.ini_suelo - this.gap * 6, true],
+        ['./assets/img/items_ri.png', -6, this.ini_suelo - this.gap * 3, true],
+        ['./assets/img/items_ri.png', -4, this.ini_suelo - this.gap * 5, true]
     ];
 
     static array_bonus2 = [
-        ['./img/items_ri.png', 35, this.ini_suelo, true],
-        ['./img/items_ri.png', 8, this.ini_suelo - this.gap * 3, true],
-        ['./img/items_ri.png', 32, this.ini_suelo - this.gap * 3, true],
-        ['./img/items_ri.png', 10, this.ini_suelo - this.gap * 3, true],
-        ['./img/items_ri.png', 56, this.ini_suelo, true],
-        ['./img/items_ri.png', 30, this.ini_suelo - this.gap * 6, true],
-        ['./img/items_ri.png', 56, this.ini_suelo - this.gap * 6, true],
-        ['./img/items_ri.png', 53, this.ini_suelo, true],
-        ['./img/items_ri.png', 46, this.ini_suelo, true]
+        ['./assets/img/items_ri.png', 35, this.ini_suelo, true],
+        ['./assets/img/items_ri.png', 8, this.ini_suelo - this.gap * 3, true],
+        ['./assets/img/items_ri.png', 32, this.ini_suelo - this.gap * 3, true],
+        ['./assets/img/items_ri.png', 10, this.ini_suelo - this.gap * 3, true],
+        ['./assets/img/items_ri.png', 56, this.ini_suelo, true],
+        ['./assets/img/items_ri.png', 30, this.ini_suelo - this.gap * 6, true],
+        ['./assets/img/items_ri.png', 56, this.ini_suelo - this.gap * 6, true],
+        ['./assets/img/items_ri.png', 53, this.ini_suelo, true],
+        ['./assets/img/items_ri.png', 46, this.ini_suelo, true]
     ];
 
     static array_nivelesBonus = [

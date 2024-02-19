@@ -10,7 +10,7 @@ export class LosSiete {
 
         this.ctx = settings.ctx;
         this.img = new Image();
-        this.img.src = './img/items_ri.png';
+        this.img.src = './assets/img/items_ri.png';
 
         const marginLeft = Math.floor(settings.resolucion[0] / 2 - ((settings.constante.bsx * 7) / 2));
 
@@ -36,7 +36,7 @@ export class LosSiete {
         //  Completados los 7
         // ---------------------------------------------------------------
         this.img_completed = new Image();
-        this.img_completed.src = './img/showPtos.png';
+        this.img_completed.src = './assets/img/showPtos.png';
 
         this.xc = marginLeft;
         this.yc = settings.constante.bsy;

@@ -11,7 +11,7 @@ export class Bichos {
 
         this.ctx = settings.ctx;
         this.img = new Image();
-        this.img.src = './img/Ssheet_platD.png';
+        this.img.src = './assets/img/Ssheet_platD.png';
 
         this.id = id;
         this.indice = indice;
